@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="manifest" href="manifest.json">
     <meta charset="UTF-8">
     <link rel="icon" href="Screenshot 2025-02-06 164353.png" type="image/x-icon">
     <title>AGAMY TAB</title>
@@ -265,7 +266,12 @@ button:hover {
 
 
 
-
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('service-worker.js')
+    .then(() => console.log("Service Worker Registered"));
+}
+</script>
 </body>
 </html>
 

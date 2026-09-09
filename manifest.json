@@ -1,15 +1,27 @@
 {
-  "name": "AGAMY TAB",
-  "short_name": "AGAMY TAB",
-  "start_url": "./index.html",
+  "name": "Agamy Tab",
+  "short_name": "Agamy Tab",
+  "description": "Progressive Web App",
+  "start_url": "./",
+  "scope": "./",
   "display": "standalone",
-  "background_color": "#0f0f0f",
-  "theme_color": "#00f5d4",
+  "orientation": "portrait",
+  "background_color": "#000000f1",
+  "theme_color": "#2196f3",
+  "lang": "ar",
+  "dir": "rtl",
   "icons": [
     {
       "src": "icon.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
     }
   ]
 }
